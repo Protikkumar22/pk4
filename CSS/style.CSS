@@ -1,0 +1,327 @@
+/* Global class */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 75px 0px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.under-line{
+border-bottom: 2px solid rgba(0, 0, 0, 0.233);
+display: block;
+width: 5%;
+margin: 15px auto;
+}
+
+/* ========================== Header part============================== */
+
+header{
+   
+   background-color: #87509c;
+   color: white;
+   width: 100%;
+   text-align: center;
+    float: left;
+}
+nav{
+width: 100%;
+float: left;
+padding: 10px 0px;
+}
+.logo-part{
+width: 50%;
+float: left;
+text-align: start;
+
+}
+.menu-part{
+width: 50%;
+float: left;
+
+}
+.menu-part ul{
+padding: 15px 0px;
+} 
+.menu-part li{
+list-style: none;
+display: inline-block;
+/* margin: 0px 10px; */
+} 
+.menu-part a{
+font-size: 20px;
+color: white;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+transition: ease-in-out 0.8s;
+}
+.menu-part a:hover{
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 10px;
+
+}
+.header-writing-part{
+width: 100%;
+float: left;
+text-align: center;
+margin: 70px 0px;
+
+}
+.header-writing-part h1{
+
+}
+.header-writing-part a button{
+width: 200px;
+padding: 15px;
+color: white;
+background-color: chocolate;
+text-transform: uppercase;
+margin-top: 20px;
+}
+.header-writing-part a button:hover{
+ width: 200px;
+ padding: 15px;
+ color: white;
+ background-color: #eb7d4b;
+ text-transform: uppercase;
+ margin-top: 20px;
+}
+/* <!-- =======================================Service section========================= --> */
+#Service{
+width: 100%;
+float: left;
+background-color: #17c2a4;
+color: white;
+text-align: center;
+}
+.service-writing-part{
+width: 100%;
+float: left;
+}
+.service-writing-part h2{
+font-size: 35px;
+letter-spacing: 7px;
+font-weight: 600;
+}
+.service-writing-part p{
+width: 50%;
+margin: auto;
+}
+.service-box-par{
+width: 100%;
+float: left;
+margin-top: 50px;
+}
+.service-box{
+width: 25%;
+float: left;
+padding: 20px;
+}
+.service-box img{
+
+}
+.service-box h2{
+margin: 10px 0px;
+}
+/* =========================================tram section===================================== */
+#team{
+    width: 100%;
+    float: left;
+    background-color: #e7f1f8;
+    color: #3c4761; 
+    text-align: center;
+    }
+    .team-writing-part{
+    width: 100%;
+    float: left;
+    }
+    .team-writing-part h2 {
+     font-size: 35px;
+    letter-spacing: 7px;
+    font-weight: 500;
+    }
+    .team-writing-part p{
+    width: 40%;
+    margin: auto;
+    }
+    .team-box-par{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    }
+    .team-box{
+    width: 25%;
+    float: left;
+    padding: 20px;
+    }
+    .team-box img{
+    
+    }
+    .team-box h2{
+    margin: 10px 0px;
+    }
+   /* ================================ skills section================================= */
+   #skills{
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    color: #3c4761; 
+    text-align: center;
+    }
+    .skills-writing-part{
+    width: 100%;
+    float: left;
+    }
+    .skills-writing-part h2{
+    font-size: 35px;
+    letter-spacing: 7px;
+    font-weight: 600;
+    }
+    .skills-writing-part p{
+    width: 50%;
+    margin: auto;
+    }
+    .skills-box-par{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    }
+    .skills-box{
+    width: 25%;
+    float: left;
+    padding: 20px;
+    }
+    .skills-box img{
+    
+    }
+    .skills-box h2{
+    margin: 10px 0px;
+    }
+    /* ============================================portfolio section============================================= */
+    #portfolio{
+        width: 100%;
+        float: left;
+        background-color: #ffdd99;
+        color: #393939; 
+        text-align: center;
+        }
+       .menu ul{
+       
+        text-align: center;
+        font-size: 20px;
+        olor: white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        transition: ease-in-out 0.8s;
+       }
+        .portfolio-writing-part{
+        width: 50%;
+        float: left;
+        }
+        .portfolio-writing-part h2{
+            width: 60%;
+        font-size: 10px;
+        letter-spacing: 9px;
+        font-weight: 600;
+        }
+        .portfolio-writing-part p{
+        width: 50%;
+        margin: auto;
+        }
+        .portfolio-box-par{
+        width: 60%;
+        float: left;
+        margin-top: 15px;
+        /* text-align: center; */
+        }
+        .portfolio-box{
+        width: 35%;
+        float: left;
+        padding: 20px;        
+        }
+       
+        .portfolio-box img{
+        display: block;
+        height: auto;
+        max-width: 100%;
+        margin: 50px 0px;       
+        float: left;
+        
+        }
+        .portfolio-box h2{
+        margin: 10px 0px;
+        }
+        /* <!-- ====================================POEPLE SAY=================================== --> */
+        #POEPLESAY{
+            width: 100%;
+            float: left;
+            background-color: #d74680;
+            color:#ffffff; 
+            text-align: center;
+            }
+           .menu ul{
+           
+            text-align: center;
+            font-size: 20px;
+            olor: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: ease-in-out 0.8s;
+           }
+            .POEPLESAY-writing-part{
+            width: 50%;
+            float: left;
+            }
+            .POEPLESAY-writing-part h2{
+                width: 60%;
+            font-size: 10px;
+            letter-spacing: 9px;
+            font-weight: 600;
+            }
+            .POEPLESAY-writing-part p{
+            width: 50%;
+            margin: auto;
+            }
+            .POEPLESAY-box-par{
+            width: 60%;
+            float: left;
+            margin-top: 15px;
+            /* text-align: center; */
+            }
+            .POEPLESAY-box{
+            width: 35%;
+            float: left;
+            padding: 20px;        
+            }
+           
+            .POEPLESAY-box img{
+            display: block;
+            height: auto;
+            max-width: 100%;
+            margin: 50px 0px;       
+            float: left;
+            
+            }
+            .POEPLESAY-box h2{
+            margin: 10px 0px;
+            }
+            /* =======================================TOUCH================================== */
+            #TOUCH{
+                width: 100%;
+                float: left;
+                background-color: #3c5499;
+                color:#ffffff; 
+                text-align: center;
+                }
+               
